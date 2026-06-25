@@ -1,0 +1,130 @@
+a{
+    text-decoration: none;
+}
+.top-bar {
+    background: #003349;
+    
+    font-size: 14px;
+}
+header i{
+   color: #007fad; 
+}
+header form{
+    border: 2px solid #007fad;
+}
+
+.subtitle {
+    color: #444;
+    
+}
+
+.hero-content h1 {
+    color: #032f49;
+}
+.hero .btn {
+   
+    background: #003b57;
+   
+}
+
+.height-adjustable-products{
+    background-color: #f0f0f0;;
+}
+.height-adjustable-products h2 {
+    color: #032f49;
+    
+}
+.height-adjustable-products p {
+    color: #4f4f4f;
+
+}
+
+.height-adjustable-products .btn {
+    color: #113849;
+    border: 2px solid #003349;
+    font-size: 0.9rem;
+    transition: 1s all ease;
+
+}
+
+.height-adjustable-products .btn:hover {
+    color: #04a3dc;
+    border: 2px solid #04a3dc;
+
+
+}
+
+@media (max-width: 320px) {
+    .products .product {
+        width: 100%;
+    }
+}
+.contact-email {
+    background-color: #e6e8e9;
+
+}
+.contact-email .inter-email input {
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+}
+
+.contact-email .inter-email input:focus {
+    outline: none;
+    border: 1px solid #66ccff;
+    box-shadow: 0 0 5px rgba(102, 204, 255, 0.8);
+}
+
+.contact-email .inter-email .sign-up {
+    background-color: #003349;
+}
+footer .footer-buttom , footer .footer-buttom a{
+    font-size: 12px;
+    color: #5a5b5b;
+}
+footer .social-section a {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #007fad;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer  .social-section a i {
+    color: #007fad;
+}
+
+footer  .social-section a:hover {
+    background-color: #007fad;
+}
+
+footer .social-section a:hover i {
+    color: white;
+}
+
+footer .footer-bottom {
+    color: #5a5b5b;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+
+}
+footer h6, footer h5, footer p a, footer i{
+    color: #007fad;
+}
+footer  .footer-top li a{
+   
+    color: #4d4d4d;
+    font-size: 14px;
+
+}
+footer  .footer-top li a:hover, footer .footer-buttom a:hover  {
+   color: #007fad;
+   text-decoration: underline;
+    
+
+}
