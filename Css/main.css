@@ -18,8 +18,9 @@ header form{
     
 }
 
-.hero-content h1 {
+.hero .hero-content h1 {
     color: #032f49;
+    font-family: "Libre Franklin", "Libre Fallback", sans-serif, sans-serif;
 }
 .hero .btn {
    
@@ -32,6 +33,7 @@ header form{
 }
 .height-adjustable-products h2 {
     color: #032f49;
+    font-family: "Libre Franklin", "Libre Fallback", sans-serif, sans-serif;
     
 }
 .height-adjustable-products p {
