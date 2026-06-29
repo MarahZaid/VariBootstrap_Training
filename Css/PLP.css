@@ -23,3 +23,64 @@
 .main-products .btn{
     background-color: #003349;
 }
+
+.products .btn{
+    border: #003349 solid 2px;
+    color: #003349;
+}
+.products .btn:hover{
+    border: #007fad solid 2px;
+    color: #007fad;
+}
+.product-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image video,
+.product-image img{
+    width: 100%;
+    display: block;
+}
+
+
+.hover-image{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    object-fit: cover;
+}
+
+
+.product-image:hover .hover-image{
+    opacity: 1;
+    visibility: visible;
+}
+.product-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image img{
+    width: 100%;
+    display: block;
+    transition: opacity .3s ease;
+}
+
+
+.product-image .img-hover{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+
+.product-image:hover .img-default{
+    opacity: 0;
+}
+
+.product-image:hover .img-hover{
+    opacity: 1;
+}
