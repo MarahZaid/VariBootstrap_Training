@@ -9,3 +9,17 @@
 .hero-disk a{
     color: #219fc5;
 }
+
+/*******************************************/
+.nav-link-custom:hover {
+  color: #219fc5 !important;
+  text-decoration: underline;
+}
+
+.main-products .filters .filter-title{
+    color: #007fad;
+}
+
+.main-products .btn{
+    background-color: #003349;
+}
