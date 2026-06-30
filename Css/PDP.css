@@ -1,0 +1,46 @@
+.carousel-vertical-imgs .active-img{
+    border: 1px rgb(0, 145, 255) solid !important;
+}
+
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #000; 
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   
+  transform: scale(0.8); 
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 25px;
+}
+
+
+.zoom-pane {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+   
+}
+
+
+.drift-zoom-pane {
+    z-index: 999;
+}
+
+
+@media (max-width: 575.98px) {
+    .zoom-pane {
+        min-height: 50vh;
+    }
+}
