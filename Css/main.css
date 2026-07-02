@@ -13,54 +13,6 @@ header form{
     border: 2px solid #007fad;
 }
 
-.subtitle {
-    color: #444;
-    
-}
-
-.hero .hero-content h1 {
-    color: #032f49;
-    font-family: "Libre Franklin", "Libre Fallback", sans-serif, sans-serif;
-}
-.hero .btn {
-   
-    background: #003b57;
-   
-}
-
-.height-adjustable-products{
-    background-color: #f0f0f0;;
-}
-.height-adjustable-products h2 {
-    color: #032f49;
-    font-family: "Libre Franklin", "Libre Fallback", sans-serif, sans-serif;
-    
-}
-.height-adjustable-products p {
-    color: #4f4f4f;
-
-}
-
-.height-adjustable-products .btn {
-    color: #113849;
-    border: 2px solid #003349;
-    font-size: 0.9rem;
-    transition: 1s all ease;
-
-}
-
-.height-adjustable-products .btn:hover {
-    color: #04a3dc;
-    border: 2px solid #04a3dc;
-
-
-}
-
-@media (max-width: 320px) {
-    .products .product {
-        width: 100%;
-    }
-}
 .contact-email {
     background-color: #e6e8e9;
 
