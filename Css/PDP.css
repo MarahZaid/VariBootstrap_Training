@@ -1,28 +1,28 @@
-.carousel-vertical-imgs .active-img{
+.carousel-vertical-imgs .active-img {
     border: 1px rgb(0, 145, 255) solid !important;
 }
 
 
 .carousel-indicators [data-bs-target] {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.4);
-  margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0 5px;
 }
 
 .carousel-indicators .active {
-  background-color: #000; 
+    background-color: #000;
 }
 
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-   
-  transform: scale(0.8); 
-  background-color: rgb(0, 0, 0);
-  border-radius: 50%;
-  padding: 25px;
+
+    transform: scale(0.8);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 25px;
 }
 
 
@@ -30,7 +30,7 @@
     position: relative;
     overflow: hidden;
     background: #fff;
-   
+
 }
 
 
@@ -43,4 +43,105 @@
     .zoom-pane {
         min-height: 50vh;
     }
+}
+
+.btn-cart {
+
+    background: #003b57;
+    color: white;
+
+}
+
+.btn-cart:hover {
+
+    background: #007fad;
+
+
+}
+
+.accordion-button::after {
+    background-image: none;
+    content: "+";
+    font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "−";
+}
+
+.review {
+    background-color: #f6f7f7;
+    ;
+}
+
+.scrollbar-hidden {
+    display: none;
+}
+
+.scrollbar-hidden {
+    scrollbar-width: none;
+}
+
+.hover-stars {
+    transition: .3s;
+}
+
+.card:hover .hover-stars {
+    opacity: 1 !important;
+}
+
+/****************************************/
+.rating-number {
+
+    color: #003b57;
+}
+
+.text-warning i {
+    font-size: 22px;
+}
+
+.progress {
+    height: 8px;
+    background: #ececec;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    background-color: #003b57 !important;
+}
+
+.review-btn {
+    background: #003b57;
+}
+
+.review-btn:hover {
+    background: #002c43;
+}
+
+.pagination .page-link{
+    border: none;
+    color:#003b57;
+    margin:0 4px;
+    border-radius:6px;
+    background-color: #f6f7f7;
+}
+
+.pagination .page-item.active .page-link{
+    background:#003b57;
+    color:#fff;
+}
+
+.pagination .page-item.disabled .page-link{
+    color:#c7c7c7;
+}
+
+.star{
+    cursor:pointer;
+    color:#cfcfcf;
+    transition:.2s;
+}
+
+.star.active{
+    color:#ffc107;
 }

@@ -75,3 +75,44 @@ carouselImages.forEach((img) => {
     });
 
 });
+
+/********************************************************* */
+ const slider = document.getElementById("reviewSlider");
+
+    document.getElementById("nextBtn").onclick = () => {
+        slider.scrollBy({
+            left: 300,
+            behavior: "smooth"
+        });
+    }
+
+    document.getElementById("prevBtn").onclick = () => {
+        slider.scrollBy({
+            left: -300,
+            behavior: "smooth"
+        });
+    }
+
+    
+/*************************************************************** */
+const stars = document.querySelectorAll(".star");
+const ratingInput = document.getElementById("ratingValue");
+
+stars.forEach(star => {
+    star.addEventListener("click", function () {
+
+        let value = this.dataset.value;
+        ratingInput.value = value;
+
+        stars.forEach(s => {
+            if (s.dataset.value <= value) {
+                s.classList.remove("bi-star");
+                s.classList.add("bi-star-fill", "active");
+            } else {
+                s.classList.remove("bi-star-fill", "active");
+                s.classList.add("bi-star");
+            }
+        });
+
+    });
+});
